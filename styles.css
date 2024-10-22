@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(234,244,244);
+}
+
+.round{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 51px -5px rgba(77,77,77,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.btn{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    & > button{
+        width: 35%;
+        padding: 10px 10px;
+        border-radius: 10px;
+        outline: none;
+        border: 0px;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+
+    }
+}
+
+.btn > button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#square{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+}
+
+/* 1. Circle */
+#circle {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+/* 2. Oval */
+#oval {
+    width: 70px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* 3. Triangle */
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid white;
+}
+
+/* 4. Trapezoid */
+#trapezoid {
+    width: 70px;
+    height: 0;
+    border-bottom: 50px solid white;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+/* 5. Hexagon */
+#hexagon {
+    width: 40px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+}
+
+
+/* 6. Pentagon */
+#pentagon {
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid white;
+    position: relative;
+}
+
+/* 7. Star */
+#star {
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid white;
+    position: relative;
+}
+
+
+/* 8. Diamond */
+#diamond {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+/* 9. Parallelogram */
+#parallelogram {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    transform: skew(20deg);
+}
+
+/* 10. Crescent */
+#crescent {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+
